@@ -1,0 +1,9 @@
+{
+  "especialidades": [
+    { "id": 1, "nombre": "Cardiología", "descripcion": "Diagnóstico y tratamiento de enfermedades del corazón." },
+    { "id": 2, "nombre": "Pediatría", "descripcion": "Atención médica a bebés, niños y adolescentes." },
+    { "id": 3, "nombre": "Dermatología", "descripcion": "Diagnóstico y tratamiento de enfermedades de la piel." },
+    { "id": 4, "nombre": "Neurología", "descripcion": "Trastornos del sistema nervioso." },
+    { "id": 5, "nombre": "Oftalmología", "descripcion": "Enfermedades y cirugía de los ojos." }
+  ]
+}
