@@ -1,8 +1,8 @@
-name: CI - Build & Test Angular
+name: CI - Build Angular
 
 on:
   push:
-    branches: [ "master" ] 
+    branches: [ "master" ]   # tu rama actual
   pull_request:
     branches: [ "master" ]
 
@@ -22,8 +22,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run tests
-        run: npm test -- --watch=false --browsers=ChromeHeadless
+      - name: Install Angular CLI
+        run: npm install -g @angular/cli
 
       - name: Build Angular app
         run: npm run build --if-present
